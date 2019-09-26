@@ -23,14 +23,14 @@
 
   <distributionManagement>
     </repository>
-      <id>prod-snap</id>
+      <id>admin</id>
       <name>production snapshot</name>
       <url>http://13.233.81.137:8081/repository/prod-snap/</url>
     </repository>
    
  <distributionManagement>
     </repository>
-      <id>prod-release</id>
+      <id>admin</id>
       <name>production release</name>
       <url>http://13.233.81.137:8081/repository/prod-release/</url>
     </repository>
