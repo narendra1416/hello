@@ -24,12 +24,12 @@
   <snapshotRepository>
       <id>deployment</id>
       <name>Internal snapshot Release</name>
-      <url>http://34.229.213.42:8081/repository/devops-snapshot/</url>
+      <url>http://34.229.213.42:8081/repository/devops-snapshot</url>
     </snapshotRepository>
     <repository>
       <id>deployment</id>
       <name>Internal Release</name>
-      <url>http://34.229.213.42:8081/repository/devops-release/</url>
+      <url>http://34.229.213.42:8081/repository/devops-release</url>
     </repository>
  </distributionManagement>
 
