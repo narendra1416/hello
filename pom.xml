@@ -20,13 +20,18 @@
     <module>server</module>
     <module>webapp</module>
   </modules>
-
-  <repositories>
+<distributionManagement>
+  <snapshotRepository>
+      <id>deployment</id>
+      <name>Internal snapshot Release</name>
+      <url>http://34.229.213.42:8081/repository/devops-snapshot/</url>
+    </snapshotRepository>
     <repository>
-        <id>deployment</id>
-        <url>http://34.229.213.42:8081/repository/devops-release/</url>
+      <id>deployment</id>
+      <name>Internal Release</name>
+      <url>http://34.229.213.42:8081/repository/devops-release/</url>
     </repository>
-</repositories>
+ </distributionManagement>
 
   <build>
     <plugins>
