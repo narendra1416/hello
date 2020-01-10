@@ -21,13 +21,12 @@
     <module>webapp</module>
   </modules>
 
-  <distributionManagement>
+  <repositories>
     <repository>
-      <id>deployment</id>
-      <name>Internal Release</name>
-      <url>http://34.229.213.42:8081/repository/devops-release/</url>
+        <id>deployment</id>
+        <url>http://34.229.213.42:8081/repository/devops-release/</url>
     </repository>
-  </distributionManagement>
+</repositories>
 
   <build>
     <plugins>
