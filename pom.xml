@@ -27,11 +27,11 @@
       <name>Internal Release</name>
       <url>http://34.229.213.42:8081/repository/devops-release/</url>
     </repository>
-    <SnapshotRepository>
+    <snapshotRepository>
       <id>deployment</id>
-      <name>Internal Snapshot Release</name>
+      <name>Internal snapshot Release</name>
       <url>http://34.229.213.42:8081/repository/devops-snapshot/</url>
-    </SnapshotRepository>     
+    </snapshotRepository>     
   </distributionManagement>
 
   <build>
