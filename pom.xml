@@ -22,11 +22,16 @@
   </modules>
 
   <distributionManagement>
-    <site>
-      <id>site-server</id>
-      <name>Test Project Site</name>
-      <url>file:///tmp/maven-project-site</url>
-    </site>
+    <repository>
+      <id>deployment</id>
+      <name>Internal Release</name>
+      <url>http://34.229.213.42:8081/repository/devops-release/</url>
+    </repository>
+    <SnapshotRepository>
+      <id>deployment</id>
+      <name>Internal Snapshot Release</name>
+      <url>http://34.229.213.42:8081/repository/devops-snapshot/</url>
+    </SnapshotRepository>     
   </distributionManagement>
 
   <build>
@@ -205,6 +210,8 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+         
+   
 
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
